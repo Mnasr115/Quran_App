@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:islamy_app/Home/tabs/ahadeth_tab.dart';
-import 'package:islamy_app/Home/tabs/quran_tab.dart';
-import 'package:islamy_app/Home/tabs/radio_tab.dart';
-import 'package:islamy_app/Home/tabs/sebha_tab.dart';
-import 'package:islamy_app/Home/tabs/setting_tab.dart';
+import 'package:quran_app/Home/tabs/ahadeth_tab.dart';
+import 'package:quran_app/Home/tabs/quran_tab.dart';
+import 'package:quran_app/Home/tabs/radio_tab.dart';
+import 'package:quran_app/Home/tabs/sebha_tab.dart';
+import 'package:quran_app/Home/tabs/setting_tab.dart';
+
 
 class Home extends StatefulWidget {
   static const String routeName = "Home";

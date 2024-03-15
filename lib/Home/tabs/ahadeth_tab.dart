@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:islamy_app/hadeth_details.dart';
 
+import '../../hadeth_details.dart';
 import '../../models/hadeth_model.dart';
 
 class Ahadeth extends StatefulWidget {

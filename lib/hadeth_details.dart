@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:islamy_app/models/hadeth_model.dart';
+
+import 'models/hadeth_model.dart';
+
 
 class HadethDetails extends StatelessWidget {
   static const String routeName = "hadeth details";

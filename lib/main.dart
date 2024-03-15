@@ -1,14 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:islamy_app/Home/tabs/ahadeth_tab.dart';
-import 'package:islamy_app/Home/home.dart';
-import 'package:islamy_app/Home/tabs/quran_tab.dart';
-import 'package:islamy_app/Home/tabs/radio_tab.dart';
-import 'package:islamy_app/Home/tabs/sebha_tab.dart';
-import 'package:islamy_app/Home/tabs/setting_tab.dart';
-import 'package:islamy_app/my_them.dart';
-import 'package:islamy_app/sura_details.dart';
+import 'package:quran_app/sura_details.dart';
+import 'Home/home.dart';
+import 'Home/tabs/ahadeth_tab.dart';
+import 'Home/tabs/quran_tab.dart';
+import 'Home/tabs/radio_tab.dart';
+import 'Home/tabs/sebha_tab.dart';
+import 'Home/tabs/setting_tab.dart';
 import 'hadeth_details.dart';
+import 'my_them.dart';
 
 void main() {
   runApp(MyApp());

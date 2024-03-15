@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
+import 'models/sura_model.dart';
+
 
 
 class SuraDetailsScreen extends StatefulWidget {
@@ -21,6 +23,7 @@ class _SuraDetailsScreenState extends State<SuraDetailsScreen> {
     if (verses.isEmpty) {
       loadFile(model.index);
     }
+
     return Stack(
       children: [
         Image.asset("assets/images/default_bg.png",
