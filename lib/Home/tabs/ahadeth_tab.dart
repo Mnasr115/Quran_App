@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-
 import '../../hadeth_details.dart';
 import '../../models/hadeth_model.dart';
 
