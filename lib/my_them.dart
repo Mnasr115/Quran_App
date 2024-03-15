@@ -10,7 +10,7 @@ class MyThemeData {
       type: BottomNavigationBarType.fixed,
       backgroundColor: Color(0xFFB7935F),
       showSelectedLabels: true,
-      showUnselectedLabels: false,
+      showUnselectedLabels: true,
       selectedItemColor: Colors.black,
       unselectedItemColor: Colors.white,
       selectedLabelStyle: TextStyle(fontSize: 15),
@@ -62,7 +62,7 @@ class MyThemeData {
       type: BottomNavigationBarType.fixed,
       backgroundColor: Color(0xFF141A2E),
       showSelectedLabels: true,
-      showUnselectedLabels: false,
+      showUnselectedLabels: true,
       selectedItemColor: Color(0xFFFACC1D),
       unselectedItemColor: Colors.white,
       selectedLabelStyle: TextStyle(
