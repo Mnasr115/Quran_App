@@ -29,62 +29,60 @@ class _SebhaState extends State<Sebha> {
         children: [
           Expanded(
               flex: 4,
-              child: Container(
-                child: Stack(
-                  alignment: Alignment.topCenter,
-                  children: [
-                    Container(
-                      margin: EdgeInsets.all(65),
-                      child: AnimatedRotation(
-                        duration: Duration(
-                          milliseconds: 25,
-                        ),
-                          turns: turnes,
-                          child: Image.asset("assets/images/body_sebha_logo.png")
+              child: Stack(
+                alignment: Alignment.topCenter,
+                children: [
+                  Container(
+                    margin: const EdgeInsets.all(65),
+                    child: AnimatedRotation(
+                      duration: const Duration(
+                        milliseconds: 25,
                       ),
+                        turns: turnes,
+                        child: Image.asset("assets/images/body_sebha_logo.png")
                     ),
-                    Container(
-                        child:
-                            Image.asset("assets/images/head_sebha_logo.png")),
-                  ],
-                ),
+                  ),
+                  Image.asset("assets/images/head_sebha_logo.png"),
+                ],
               )),
           Expanded(
               flex: 3,
               child: Column(
                 children: [
-                  Container(
+                  SizedBox(
                     height: 39,
-                    width: 154,
-                    child: Text(
-                      "عدد التسبيحات",
-                      style: GoogleFonts.elMessiri(
-                        fontSize: 25,
-                        fontWeight: FontWeight.w600,
-                        color: Color(0xFF242424),
+                    width: 157,
+                    child: Center(
+                      child: Text(
+                        "عدد التسبيحات",
+                        style: GoogleFonts.elMessiri(
+                          fontSize: 25,
+                          fontWeight: FontWeight.w600,
+                          color: const Color(0xFF242424),
+                        ),
                       ),
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 26,
                   ),
                   Container(
                     width: 69,
                     height: 81,
                     decoration: BoxDecoration(
-                      color: Color(0xFFB7935F),
+                      color: const Color(0xFFB7935F),
                       borderRadius: BorderRadius.circular(25),
                     ),
                     child: Center(
                       child: Text("$counter",
                           style: GoogleFonts.inter(
-                            color: Color(0xFF242424),
+                            color: const Color(0xFF242424),
                             fontWeight: FontWeight.w700,
                             fontSize: 30,
                           )),
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 22,
                   ),
                   InkWell(
@@ -105,13 +103,13 @@ class _SebhaState extends State<Sebha> {
                       width: 137,
                       height: 51,
                       decoration: BoxDecoration(
-                        color: Color(0xFFB7935F),
+                        color: const Color(0xFFB7935F),
                         borderRadius: BorderRadius.circular(25),
                       ),
                       child: Center(
-                        child: Text("${azkar[index]}",
+                        child: Text(azkar[index],
                             style: GoogleFonts.inter(
-                              color: Color(0xFFFFFFFF),
+                              color: const Color(0xFFFFFFFF),
                               fontWeight: FontWeight.w400,
                               fontSize: 25,
                             )),

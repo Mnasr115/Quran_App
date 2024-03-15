@@ -1,10 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:quran_app/Home/tabs/ahadeth_tab.dart';
 import 'package:quran_app/Home/tabs/quran_tab.dart';
-import 'package:quran_app/Home/tabs/radio_tab.dart';
 import 'package:quran_app/Home/tabs/sebha_tab.dart';
-import 'package:quran_app/Home/tabs/setting_tab.dart';
-
 
 class Home extends StatefulWidget {
   static const String routeName = "Home";
@@ -17,7 +14,13 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   int index = 0;
-  List<Widget> tabs = [QuranTab(), Sebha(), Ahadeth(), Radioo(), Setting()];
+  List<Widget> tabs = [
+    QuranTab(),
+    Sebha(),
+    Ahadeth(),
+    //Radioo(),
+    //Setting(),
+  ];
 
   @override
   Widget build(BuildContext context) {
@@ -49,11 +52,11 @@ class _HomeState extends State<Home> {
                     icon:
                         ImageIcon(AssetImage("assets/images/icon_hadeth.png")),
                     label: "الأحاديث"),
-                BottomNavigationBarItem(
+                /*BottomNavigationBarItem(
                     icon: ImageIcon(AssetImage("assets/images/icon_radio.png")),
                     label: "راديو"),
                 BottomNavigationBarItem(
-                    icon: Icon(Icons.settings), label: "الاعدادات"),
+                    icon: Icon(Icons.settings), label: "الاعدادات"),*/
               ]),
           body: tabs[index]),
     );

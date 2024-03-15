@@ -3,9 +3,7 @@ import 'package:quran_app/sura_details.dart';
 import 'Home/home.dart';
 import 'Home/tabs/ahadeth_tab.dart';
 import 'Home/tabs/quran_tab.dart';
-import 'Home/tabs/radio_tab.dart';
 import 'Home/tabs/sebha_tab.dart';
-import 'Home/tabs/setting_tab.dart';
 import 'hadeth_details.dart';
 import 'my_them.dart';
 
@@ -31,8 +29,8 @@ class MyApp extends StatelessWidget {
         Sebha.routeName: (context) => Sebha(),
         Ahadeth.routeName: (context) => Ahadeth(),
         HadethDetails.routeName: (context) => const HadethDetails(),
-        Radioo.routeName: (context) => const Radioo(),
-        Setting.routeName: (context) => const Setting(),
+        /*Radioo.routeName: (context) => const Radioo(),
+        Setting.routeName: (context) => const Setting(),*/
       },
     );
   }
